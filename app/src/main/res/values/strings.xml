@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="parse_app_id">YOUR_APPLICATION_ID</string>
+    <string name="parse_client_key">YOUR_CLIENT_KEY</string>
+    <string name="app_name">AlertaBuraco</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_configuracoes">Configurações</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_compartilhar">Compartilhar</string>
+
+    <string name="botao_logar">Logar</string>
+    <string name="crie_conta">Não tem conta? crie uma!</string>
+    <string name="botao_cadastro">Cadastrar</string>
+    <string name="fazer_login">Já tem conta? faça o login!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_feed_usuarios">FeedUsuariosActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="digite_seu_nome">Digite seu Nome</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="digite_seu_nome2">Digite seu nome</string>
+    <string name="digite_seu_email">Digite seu Email</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="digite_seu_email_login">Digite seu email</string>
+    <string name="sair">Sair</string>
+    <string name="configura_es">Configurações</string>
+    <string name="tirar_foto">Tirar Foto!</string>
+    <string name="digite_o_nome_da_rua">Digite o nome da Rua</string>
+    <string name="digite_uma_descricao">Digite uma descricao</string>
+</resources>

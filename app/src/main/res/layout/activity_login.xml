@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_degrade"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="com.example.sandro.alertaburaco.LoginActivity">
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="@string/digite_seu_email_login"
+        android:id="@+id/edit_login_email"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:id="@+id/edit_login_senha"
+        android:layout_below="@+id/edit_login_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_botao"
+        android:text="@string/botao_logar"
+        android:id="@+id/button_logar"
+        android:layout_below="@+id/edit_login_senha"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_margin="16dp"
+        android:theme="@style/botao"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/crie_conta"
+        android:id="@+id/textView"
+        android:layout_below="@+id/button_logar"
+        android:layout_centerHorizontal="true"
+        android:onClick="abrirCadastroUser" />
+
+</RelativeLayout>
